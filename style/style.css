@@ -8,10 +8,29 @@ header{
     background-repeat: no-repeat;
     text-align: start;
     border-bottom-left-radius: 224px;
+    display: flex;
+    flex-direction: row;
     
 }
 
+nav{
+    width: 100%;
+    position: fixed;
+}
+#navBar{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding:  0;
+    justify-content: space-between;
+}
 
+#menuGilca{
+    display: flex;
+    flex-direction: row;
+}
 
 h1, h3{
     font-family: "Bebas Neue", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -88,6 +107,8 @@ h5{
     padding-top: 12px;
 }
 
+
+
 #conjunto-botones{
     font-family: "Bebas Neue", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: black;
@@ -110,7 +131,7 @@ h5{
    border-radius: 32px;
 }
 
-#categoria:active{
+#categoria:hover{
     background-color: #f5f5f5;
     width: 322px;
     height: 165px;
