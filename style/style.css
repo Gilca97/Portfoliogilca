@@ -131,7 +131,7 @@ h5{
    border-radius: 32px;
 }
 
-#categoria:hover{
+#categoria:active{
     background-color: #f5f5f5;
     width: 322px;
     height: 165px;
